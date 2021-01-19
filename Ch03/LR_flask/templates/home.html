@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<title>Prediction Using Flask</title>
+	</head>
+
+	<body>
+		<h1><div style="text-align:centre"><font color='blue'>Prediction from Regression </font></div></h1>
+		<hr>
+		</br>	
+
+		<h2><div style="text-align:centre">Enter the values </div></h2>
+
+		</br>
+
+		<div class='container'>
+			<div class='row'>
+				<div class='col-6'>
+					<form method="POST" action="/predict">
+						<div class='form-group'>
+							<label for="var_1"><p class="font-weight-bold">var_1</p></label>
+							<input type='text' name="var_1">
+							</div>
+
+							<div class='form-group'>
+								<label for="var_2"><p class="font-weight-bold">var_2</p></label>
+								<input type='text' name="var_2">
+								
+								</div>
+								<div class='form-group'>
+									<label for="var_3"><p class="font-weight-bold">var_3</p></label>
+									<input type='text' name="var_3">
+									
+									</div>
+									<div class='form-group'>
+										<label for="var_4"><p class="font-weight-bold">var_4</p></label>
+										<input type='text' name="var_4">
+										
+										</div>
+										<div class='form-group'>
+											<label for="var_5"><p class="font-weight-bold">var_5</p></label>
+											<input type='text' name="var_5">
+											
+											</div>
+
+											<input class='btn btn-primary' type='submit' value='Submit'>
+
+						</form>
+					</div>
+					</div>
+					</div>	
+		
+	</body>
+</html>
